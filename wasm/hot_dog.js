@@ -292,16 +292,10 @@ if (!('encodeInto' in cachedTextEncoder)) {
 
 let WASM_VECTOR_LEN = 0;
 
-function _ZN12wasm_bindgen7convert8closures1_6invoke17hd94ecf5d11b31906E(arg0, arg1) {
+function _ZN12wasm_bindgen7convert8closures1_6invoke17h3ea0f0a0bf7199e5E(arg0, arg1, arg2) {
     _assertNum(arg0);
     _assertNum(arg1);
-    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17hd94ecf5d11b31906E(arg0, arg1);
-}
-
-function _ZN12wasm_bindgen7convert8closures1_6invoke17h65e2efd5b4fb5a07E(arg0, arg1, arg2) {
-    _assertNum(arg0);
-    _assertNum(arg1);
-    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h65e2efd5b4fb5a07E(arg0, arg1, arg2);
+    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h3ea0f0a0bf7199e5E(arg0, arg1, arg2);
 }
 
 function _ZN12wasm_bindgen7convert8closures1_6invoke17h25dcfb2d833ea8f4E(arg0, arg1, arg2) {
@@ -310,22 +304,28 @@ function _ZN12wasm_bindgen7convert8closures1_6invoke17h25dcfb2d833ea8f4E(arg0, a
     wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h25dcfb2d833ea8f4E(arg0, arg1, arg2);
 }
 
-function _ZN12wasm_bindgen7convert8closures1_1_6invoke17h2d31af27e45dcaaaE(arg0, arg1, arg2) {
-    _assertNum(arg0);
-    _assertNum(arg1);
-    wasm._ZN12wasm_bindgen7convert8closures1_1_6invoke17h2d31af27e45dcaaaE(arg0, arg1, arg2);
-}
-
 function _ZN12wasm_bindgen7convert8closures1_6invoke17h36c4dbd6d24ef5e3E(arg0, arg1, arg2) {
     _assertNum(arg0);
     _assertNum(arg1);
     wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h36c4dbd6d24ef5e3E(arg0, arg1, arg2);
 }
 
-function _ZN12wasm_bindgen7convert8closures1_6invoke17h3ea0f0a0bf7199e5E(arg0, arg1, arg2) {
+function _ZN12wasm_bindgen7convert8closures1_1_6invoke17h2d31af27e45dcaaaE(arg0, arg1, arg2) {
     _assertNum(arg0);
     _assertNum(arg1);
-    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h3ea0f0a0bf7199e5E(arg0, arg1, arg2);
+    wasm._ZN12wasm_bindgen7convert8closures1_1_6invoke17h2d31af27e45dcaaaE(arg0, arg1, arg2);
+}
+
+function _ZN12wasm_bindgen7convert8closures1_6invoke17h65e2efd5b4fb5a07E(arg0, arg1, arg2) {
+    _assertNum(arg0);
+    _assertNum(arg1);
+    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h65e2efd5b4fb5a07E(arg0, arg1, arg2);
+}
+
+function _ZN12wasm_bindgen7convert8closures1_6invoke17hd94ecf5d11b31906E(arg0, arg1) {
+    _assertNum(arg0);
+    _assertNum(arg1);
+    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17hd94ecf5d11b31906E(arg0, arg1);
 }
 
 function _ZN12wasm_bindgen7convert8closures1_6invoke17hf0a3cbee96811863E(arg0, arg1) {
@@ -2028,7 +2028,7 @@ export default __wbg_init;
 globalThis.__wasm_split_main_initSync = initSync;
 
 // Actually perform the load
-__wbg_init({module_or_path: "/./wasm/hot_dog_bg.wasm"}).then((wasm) => {
+__wbg_init({module_or_path: "/hot_dog/wasm/hot_dog_bg.wasm"}).then((wasm) => {
     // assign this module to be accessible globally
     globalThis.__dx_mainWasm = wasm;
     globalThis.__dx_mainInit = __wbg_init;
