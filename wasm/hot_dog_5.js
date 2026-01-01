@@ -292,16 +292,10 @@ if (!('encodeInto' in cachedTextEncoder)) {
 
 let WASM_VECTOR_LEN = 0;
 
-function _ZN12wasm_bindgen7convert8closures1_6invoke17h680a72add358383dE(arg0, arg1, arg2) {
+function _ZN12wasm_bindgen7convert8closures1_6invoke17h0094bfdacc86fa0aE(arg0, arg1) {
     _assertNum(arg0);
     _assertNum(arg1);
-    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h680a72add358383dE(arg0, arg1, arg2);
-}
-
-function _ZN12wasm_bindgen7convert8closures1_1_6invoke17hb45fd02a37d34266E(arg0, arg1, arg2) {
-    _assertNum(arg0);
-    _assertNum(arg1);
-    wasm._ZN12wasm_bindgen7convert8closures1_1_6invoke17hb45fd02a37d34266E(arg0, arg1, arg2);
+    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h0094bfdacc86fa0aE(arg0, arg1);
 }
 
 function _ZN12wasm_bindgen7convert8closures1_6invoke17h3cf81ab38044098fE(arg0, arg1, arg2) {
@@ -310,16 +304,22 @@ function _ZN12wasm_bindgen7convert8closures1_6invoke17h3cf81ab38044098fE(arg0, a
     wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h3cf81ab38044098fE(arg0, arg1, arg2);
 }
 
-function _ZN12wasm_bindgen7convert8closures1_6invoke17h0094bfdacc86fa0aE(arg0, arg1) {
+function _ZN12wasm_bindgen7convert8closures1_6invoke17h680a72add358383dE(arg0, arg1, arg2) {
     _assertNum(arg0);
     _assertNum(arg1);
-    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h0094bfdacc86fa0aE(arg0, arg1);
+    wasm._ZN12wasm_bindgen7convert8closures1_6invoke17h680a72add358383dE(arg0, arg1, arg2);
 }
 
 function _ZN12wasm_bindgen7convert8closures1_6invoke17he6ab51d2d74888d9E(arg0, arg1, arg2) {
     _assertNum(arg0);
     _assertNum(arg1);
     wasm._ZN12wasm_bindgen7convert8closures1_6invoke17he6ab51d2d74888d9E(arg0, arg1, arg2);
+}
+
+function _ZN12wasm_bindgen7convert8closures1_1_6invoke17hb45fd02a37d34266E(arg0, arg1, arg2) {
+    _assertNum(arg0);
+    _assertNum(arg1);
+    wasm._ZN12wasm_bindgen7convert8closures1_1_6invoke17hb45fd02a37d34266E(arg0, arg1, arg2);
 }
 
 function _ZN12wasm_bindgen7convert8closures1_6invoke17h4404cd0f31c1a576E(arg0, arg1, arg2) {
